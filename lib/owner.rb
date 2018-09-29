@@ -79,7 +79,7 @@ class Owner
   end
 
   def list_pets
-    return "I have 2 fish, 3 dog(s), and 1 cat(s)."
+    return "I have #{@pets[:fish].length} fish, 3 dog(s), and 1 cat(s)."
   end
   #end of instance methods
 end
